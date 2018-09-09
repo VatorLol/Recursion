@@ -8,13 +8,13 @@ public class Main {
 
     /*
     * @param n >= 0
-    * @return the factoriel of n
+    * @return the factorial of n
     * */
-    private static int factoriel(int n){
+    private static int factorial(int n){
         if (n == 1 || n == 0)
             return 1;
         else
-            return factoriel(n - 1) * n;
+            return factorial(n - 1) * n;
     }
 
     /*
